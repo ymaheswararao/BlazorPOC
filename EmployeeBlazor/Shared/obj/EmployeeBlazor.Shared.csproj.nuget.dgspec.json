@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahes\\source\\repos\\EmployeeBlazor\\EmployeeBlazor\\Shared\\EmployeeBlazor.Shared.csproj": {}
+    "C:\\Users\\mahes\\Source\\Repos\\BlazorPOC\\EmployeeBlazor\\Shared\\EmployeeBlazor.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahes\\source\\repos\\EmployeeBlazor\\EmployeeBlazor\\Shared\\EmployeeBlazor.Shared.csproj": {
+    "C:\\Users\\mahes\\Source\\Repos\\BlazorPOC\\EmployeeBlazor\\Shared\\EmployeeBlazor.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahes\\source\\repos\\EmployeeBlazor\\EmployeeBlazor\\Shared\\EmployeeBlazor.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\mahes\\Source\\Repos\\BlazorPOC\\EmployeeBlazor\\Shared\\EmployeeBlazor.Shared.csproj",
         "projectName": "EmployeeBlazor.Shared",
-        "projectPath": "C:\\Users\\mahes\\source\\repos\\EmployeeBlazor\\EmployeeBlazor\\Shared\\EmployeeBlazor.Shared.csproj",
+        "projectPath": "C:\\Users\\mahes\\Source\\Repos\\BlazorPOC\\EmployeeBlazor\\Shared\\EmployeeBlazor.Shared.csproj",
         "packagesPath": "C:\\Users\\mahes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahes\\source\\repos\\EmployeeBlazor\\EmployeeBlazor\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\mahes\\Source\\Repos\\BlazorPOC\\EmployeeBlazor\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

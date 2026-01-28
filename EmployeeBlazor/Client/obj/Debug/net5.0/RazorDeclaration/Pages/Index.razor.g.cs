@@ -13,71 +13,92 @@ namespace EmployeeBlazor.Client.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Client\_Imports.razor"
+#line 1 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Client\_Imports.razor"
+#line 2 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Client\_Imports.razor"
+#line 3 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Client\_Imports.razor"
+#line 4 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Client\_Imports.razor"
+#line 5 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Client\_Imports.razor"
+#line 6 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Client\_Imports.razor"
+#line 7 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Client\_Imports.razor"
+#line 8 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Client\_Imports.razor"
+#line 9 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
 using EmployeeBlazor.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Client\_Imports.razor"
+#line 10 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
 using EmployeeBlazor.Client.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
+using Syncfusion.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\_Imports.razor"
+using Syncfusion.Blazor.Grids;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\Pages\Index.razor"
+using EmployeeBlazor.Shared;
 
 #line default
 #line hidden
@@ -90,6 +111,72 @@ using EmployeeBlazor.Client.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 16 "C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Client\Pages\Index.razor"
+ 
+    public List<Employee> Employees { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Employees = LoadData();
+    }
+
+    private List<Employee> LoadData()
+    {
+        Employee e1 = new Employee
+        {
+            EmployeeId = 1,
+            FirstName = "John",
+            LastName = "Hastings",
+            Email = "john@pragimtech.com",
+            DateOfBirth = new DateTime(1980, 10, 5),
+            Gender = Gender.Male,
+            Department = new Department { DepartmentId = 1, DepartmentName = "IT" },
+            PhotoPath = "images/john.png"
+        };
+
+        Employee e2 = new Employee
+        {
+            EmployeeId = 2,
+            FirstName = "Sam",
+            LastName = "Galloway",
+            Email = "sam@pragimtech.com",
+            DateOfBirth = new DateTime(1981, 12, 22),
+            Gender = Gender.Male,
+            Department = new Department { DepartmentId = 2, DepartmentName = "HR" },
+            PhotoPath = "images/sam.jpg"
+        };
+
+        Employee e3 = new Employee
+        {
+            EmployeeId = 3,
+            FirstName = "Mary",
+            LastName = "Smith",
+            Email = "mary@pragimtech.com",
+            DateOfBirth = new DateTime(1979, 11, 11),
+            Gender = Gender.Female,
+            Department = new Department { DepartmentId = 1, DepartmentName = "IT" },
+            PhotoPath = "images/mary.png"
+        };
+
+        Employee e4 = new Employee
+        {
+            EmployeeId = 3,
+            FirstName = "Sara",
+            LastName = "Longway",
+            Email = "sara@pragimtech.com",
+            DateOfBirth = new DateTime(1982, 9, 23),
+            Gender = Gender.Female,
+            Department = new Department { DepartmentId = 3, DepartmentName = "Payroll" },
+            PhotoPath = "images/sara.png"
+        };
+        return new List<Employee> { e1, e2, e3, e4 };
+    }
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

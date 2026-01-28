@@ -10,3 +10,14 @@ C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Shared\obj\Debug\net5.
 C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Shared\obj\Debug\net5.0\EmployeeBlazor.Shared.dll
 C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Shared\obj\Debug\net5.0\ref\EmployeeBlazor.Shared.dll
 C:\Users\mahes\source\repos\EmployeeBlazor\EmployeeBlazor\Shared\obj\Debug\net5.0\EmployeeBlazor.Shared.pdb
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\bin\Debug\net5.0\EmployeeBlazor.Shared.deps.json
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\bin\Debug\net5.0\EmployeeBlazor.Shared.dll
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\bin\Debug\net5.0\ref\EmployeeBlazor.Shared.dll
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\bin\Debug\net5.0\EmployeeBlazor.Shared.pdb
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\obj\Debug\net5.0\EmployeeBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\obj\Debug\net5.0\EmployeeBlazor.Shared.AssemblyInfoInputs.cache
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\obj\Debug\net5.0\EmployeeBlazor.Shared.AssemblyInfo.cs
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\obj\Debug\net5.0\EmployeeBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\obj\Debug\net5.0\EmployeeBlazor.Shared.dll
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\obj\Debug\net5.0\ref\EmployeeBlazor.Shared.dll
+C:\Users\mahes\Source\Repos\BlazorPOC\EmployeeBlazor\Shared\obj\Debug\net5.0\EmployeeBlazor.Shared.pdb
